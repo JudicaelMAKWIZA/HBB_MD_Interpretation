@@ -11,6 +11,8 @@ Université de Kinshasa - Faculté des Sciences et Technologies - Département d
 **Titulaire :** Professeur Christian D. BOPE  
 **Doctorant :** Keph Makoy
 
+**Dépôt GitHub :** <https://github.com/JudicaelMAKWIZA/HBB_MD_Interpretation>
+
 **Membres du groupe :**
 - Makwiza Mbala Judicael
 - Matendo Kalaki Donat
@@ -19,6 +21,15 @@ Université de Kinshasa - Faculté des Sciences et Technologies - Département d
 - Luayi Kangombo Jonas
 
 ---
+
+## Livrables de présentation
+
+- Diaporama PDF final : [`docs/HBB_MD_Diapo_Final_Revu_v2.pdf`](docs/HBB_MD_Diapo_Final_Revu_v2.pdf)
+- Dossier LaTeX / Overleaf modifiable : [`docs/overleaf_hbb_md/`](docs/overleaf_hbb_md/)
+- Figures principales : [`figures/`](figures/) et [`presentation_assets/chimerax/outputs/`](presentation_assets/chimerax/outputs/)
+
+Le diaporama reste volontairement synthétique. Les détails reproductibles, commandes, scripts, fichiers MDP, figures et limites méthodologiques sont centralisés dans ce README et dans les dossiers du dépôt.
+
 
 ## 1. Contexte biologique
 
