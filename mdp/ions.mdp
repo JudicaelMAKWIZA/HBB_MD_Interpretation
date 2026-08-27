@@ -1,0 +1,29 @@
+; ============================================================
+; Préparation du fichier TPR pour l'ajout des ions
+; Projet HBB WT / HbS
+; Force field : GROMOS54A7
+; Water       : SPC
+; ============================================================
+
+integrator      = steep
+
+; Paramètres suffisants pour produire le TPR utilisé par genion
+emtol           = 1000.0
+emstep          = 0.01
+nsteps          = 50000
+
+; Neighbor searching
+cutoff-scheme   = Verlet
+nstlist         = 10
+
+; Non-bonded interactions
+coulombtype     = Reaction-Field
+rcoulomb        = 1.4
+epsilon_r       = 1
+epsilon_rf      = 61
+
+vdwtype         = Cut-off
+rvdw            = 1.4
+
+; Periodic boundary conditions
+pbc             = xyz

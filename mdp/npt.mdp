@@ -1,0 +1,60 @@
+; ============================================================
+; NPT avec position restraints - 300 ps
+; ============================================================
+
+define                  = -DPOSRES
+
+integrator              = md
+dt                      = 0.002
+nsteps                  = 150000
+
+continuation            = yes
+
+constraints             = all-bonds
+constraint-algorithm    = lincs
+lincs-iter              = 1
+lincs-order             = 4
+
+cutoff-scheme           = Verlet
+nstlist                 = 10
+
+coulombtype             = Reaction-Field
+rcoulomb                = 1.4
+epsilon-r               = 1
+epsilon-rf              = 61
+
+vdwtype                 = Cut-off
+rvdw                    = 1.4
+DispCorr                = no
+
+tcoupl                  = V-rescale
+tc-grps                 = Protein_HEM Water_and_ions
+tau-t                   = 0.1 0.1
+ref-t                   = 300 300
+
+pcoupl                  = C-rescale
+pcoupltype              = isotropic
+tau-p                   = 5.0
+ref-p                   = 1.0
+compressibility         = 4.5e-5
+
+; Important avec position restraints + pression
+refcoord-scaling        = all
+
+pbc                     = xyz
+
+gen-vel                 = no
+ld-seed                 = 20260825
+
+nstcomm                 = 100
+comm-mode               = Linear
+
+nstlog                  = 500
+nstenergy               = 500
+nstxout                  = 0
+nstvout                  = 0
+nstfout                  = 0
+
+nstxout-compressed      = 1000
+compressed-x-precision  = 1000
+compressed-x-grps       = Protein_HEM

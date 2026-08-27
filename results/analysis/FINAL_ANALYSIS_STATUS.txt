@@ -1,0 +1,36 @@
+
+============================================================
+ANALYSE : WT
+============================================================
+WT : fichiers de production présents
+WT : XTC lisible
+WT : correction PBC OK
+WT : RMSD OK
+WT : RMSF OK
+WT : Rg OK
+
+============================================================
+ANALYSE : HbS
+============================================================
+HbS : fichiers de production présents
+HbS : XTC lisible
+HbS : correction PBC OK
+HbS : RMSD OK
+HbS : RMSF OK
+HbS : Rg OK
+
+============================================================
+ANALYSE FINALE TERMINEE
+============================================================
+RMSD : OK
+RMSF : OK
+Rg   : OK
+
+Résumé :
+/home/judicael/HBB_MD_Interpretation/results/analysis/FINAL_ANALYSIS_SUMMARY.txt
+CSV :
+/home/judicael/HBB_MD_Interpretation/results/analysis/final_metrics.csv
+Figures :
+/home/judicael/HBB_MD_Interpretation/figures/rmsd_WT_vs_HbS.png
+/home/judicael/HBB_MD_Interpretation/figures/rmsf_WT_vs_HbS.png
+/home/judicael/HBB_MD_Interpretation/figures/rg_WT_vs_HbS.png

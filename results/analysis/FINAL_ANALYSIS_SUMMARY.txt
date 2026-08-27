@@ -1,0 +1,87 @@
+
+============================================================
+RESULTATS FINAUX DE DYNAMIQUE MOLECULAIRE
+============================================================
+
+Production :
+    WT  = 1.0 ns
+    HbS = 1.0 ns
+
+------------------------------------------------------------
+THERMODYNAMIQUE
+------------------------------------------------------------
+
+WT
+    Temperature = 299.94 +/- 1.26 K
+    Pression    = 0.32 +/- 106.81 bar
+    Densite     = 1017.59 +/- 1.90 kg/m3
+
+HbS
+    Temperature = 299.88 +/- 1.31 K
+    Pression    = -0.01 +/- 102.22 bar
+    Densite     = 1016.93 +/- 1.87 kg/m3
+
+------------------------------------------------------------
+RMSD BACKBONE
+Moyenne calculee sur 0.2-1.0 ns
+------------------------------------------------------------
+
+WT
+    RMSD moyen = 0.1581 +/- 0.0122 nm
+    RMSD final = 0.1697 nm
+
+HbS
+    RMSD moyen = 0.1533 +/- 0.0140 nm
+    RMSD final = 0.1706 nm
+
+Delta moyen HbS-WT = -0.0048 nm
+
+------------------------------------------------------------
+RMSF C-ALPHA
+Calcul sur 200-1000 ps
+------------------------------------------------------------
+
+WT
+    RMSF moyen              = 0.0882 nm
+    Beta6 chaine B          = 0.1479 nm
+    Beta6 chaine D          = 0.1160 nm
+    Beta6 moyen             = 0.1320 nm
+    Voisinage beta6 +/-5    = 0.1144 nm
+
+HbS
+    RMSF moyen              = 0.0932 nm
+    Beta6 chaine B          = 0.1261 nm
+    Beta6 chaine D          = 0.1256 nm
+    Beta6 moyen             = 0.1258 nm
+    Voisinage beta6 +/-5    = 0.1164 nm
+
+Delta beta6 HbS-WT = -0.0061 nm
+
+------------------------------------------------------------
+RAYON DE GIRATION
+Moyenne calculee sur 200-1000 ps
+------------------------------------------------------------
+
+WT
+    Rg = 2.4059 +/- 0.0096 nm
+
+HbS
+    Rg = 2.3821 +/- 0.0083 nm
+
+Delta Rg HbS-WT = -0.0238 nm
+
+============================================================
+IMPORTANT
+============================================================
+
+Ces valeurs decrivent une simulation comparative pilote
+de 1 ns.
+
+Elles ne constituent pas une estimation de DeltaG et ne
+demontrent pas, seules, une destabilisation thermodynamique.
+
+WT et HbS proviennent de deux structures experimentales
+differentes ; toute difference doit donc etre interpretee
+comme comparative/exploratoire.
+
+============================================================

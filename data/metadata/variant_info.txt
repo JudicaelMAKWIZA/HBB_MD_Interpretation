@@ -1,0 +1,30 @@
+Variant étudié
+
+Gène : HBB
+Transcrit RefSeq : NM_000518.5
+Variant nucléotidique : c.20A>T
+Variant protéique : p.Glu7Val
+Ancienne nomenclature : p.Glu6Val
+Nom usuel : HbS
+dbSNP : rs334
+ClinVar Variation ID : 15333
+Type : SNV
+Chromosome : 11
+Position GRCh38 : 5227002
+Conséquence : variant faux-sens
+
+Substitution :
+Glutamate (Glu, E) -> Valine (Val, V)
+
+Propriété du résidu WT :
+acide, chargé/polaire
+
+Propriété du résidu mutant :
+neutre, hydrophobe/non polaire
+
+Cas clinique associé :
+Drépanocytose / Sickle Cell Disease
+
+Source principale :
+NCBI ClinVar - Variation ID 15333
+https://www.ncbi.nlm.nih.gov/clinvar/variation/15333/

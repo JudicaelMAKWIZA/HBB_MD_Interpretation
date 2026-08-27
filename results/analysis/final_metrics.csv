@@ -1,0 +1,15 @@
+Metrique,WT,HbS,Delta_HbS_WT,Unite
+RMSD backbone moyen (0.2-1 ns),0.158134,0.153310,-0.004823,nm
+RMSD backbone SD,0.012241,0.014046,0.001805,nm
+RMSD final,0.169722,0.170614,0.000891,nm
+RMSF C-alpha moyen,0.088241,0.093207,0.004967,nm
+RMSF beta6 chaine B,0.147900,0.126100,-0.021800,nm
+RMSF beta6 chaine D,0.116000,0.125600,0.009600,nm
+RMSF beta6 moyen,0.131950,0.125850,-0.006100,nm
+RMSF voisinage beta6 +/-5,0.114423,0.116395,0.001973,nm
+Rayon de giration moyen,2.405936,2.382104,-0.023832,nm
+Rayon de giration SD,0.009587,0.008295,-0.001292,nm
+Temperature moyenne,299.935804,299.882899,-0.052904,K
+Pression moyenne,0.322452,-0.005020,-0.327472,bar
+Pression SD,106.813436,102.219770,-4.593666,bar
+Densite moyenne,1017.593622,1016.927529,-0.666093,kg/m3

@@ -1,0 +1,56 @@
+; ============================================================
+; NVT - 100 ps
+; HBB WT / HbS
+; ============================================================
+
+define                  = -DPOSRES
+
+integrator              = md
+dt                      = 0.002
+nsteps                  = 50000
+
+continuation            = no
+
+constraints             = all-bonds
+constraint-algorithm    = lincs
+lincs-iter              = 1
+lincs-order             = 4
+
+cutoff-scheme           = Verlet
+nstlist                 = 10
+
+coulombtype             = Reaction-Field
+rcoulomb                = 1.4
+epsilon-r               = 1
+epsilon-rf              = 61
+
+vdwtype                 = Cut-off
+rvdw                    = 1.4
+DispCorr                = no
+
+tcoupl                  = V-rescale
+tc-grps                 = Protein_HEM Water_and_ions
+tau-t                   = 0.1 0.1
+ref-t                   = 300 300
+
+pcoupl                  = no
+
+pbc                     = xyz
+
+gen-vel                 = yes
+gen-temp                = 300
+gen-seed                = 20260825
+ld-seed                 = 20260825
+
+nstcomm                 = 100
+comm-mode               = Linear
+
+nstlog                  = 500
+nstenergy               = 500
+nstxout                  = 0
+nstvout                  = 0
+nstfout                  = 0
+
+nstxout-compressed      = 1000
+compressed-x-precision  = 1000
+compressed-x-grps       = Protein_HEM

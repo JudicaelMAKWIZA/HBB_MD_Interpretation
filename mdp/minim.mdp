@@ -1,0 +1,48 @@
+; ============================================================
+; Minimisation énergétique
+; Projet HBB WT / HbS
+; Force field : GROMOS54A7_hbb
+; Water       : SPC
+; ============================================================
+
+; ----------------------------
+; Minimisation
+; ----------------------------
+integrator      = steep
+emtol           = 1000.0
+emstep          = 0.01
+nsteps          = 50000
+
+; ----------------------------
+; Sorties
+; ----------------------------
+nstlog          = 100
+nstenergy       = 100
+
+; ----------------------------
+; Neighbor searching
+; ----------------------------
+cutoff-scheme   = Verlet
+nstlist         = 10
+
+; ----------------------------
+; Electrostatique
+; ----------------------------
+coulombtype     = Reaction-Field
+rcoulomb        = 1.4
+epsilon_r       = 1
+epsilon_rf      = 61
+
+; ----------------------------
+; Van der Waals
+; ----------------------------
+vdwtype         = Cut-off
+rvdw            = 1.4
+
+; ----------------------------
+; Conditions périodiques
+; ----------------------------
+pbc             = xyz
+
+; Pas de contraintes pendant la minimisation
+constraints     = none

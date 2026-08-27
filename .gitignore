@@ -44,3 +44,22 @@ Thumbs.db
 # ==========================================
 .vscode/
 .idea/
+
+# ==========================================
+# LaTeX / Beamer temporaires
+# ==========================================
+*.aux
+*.nav
+*.snm
+*.toc
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Fichiers de suivi locaux / sauvegardes
+*.pid
+*.before_*
+*_before_pbc_fix/
+before_pbc_fix/
+*.bak_before_*
