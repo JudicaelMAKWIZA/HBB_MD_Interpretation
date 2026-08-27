@@ -1,35 +1,14 @@
 # HBB_MD_Interpretation
 
-## Travail Pratique de Bioinformatique
+## Projet de Bioinformatique
 
 **Sujet :** *Amélioration de l'interprétation de variants génétique par l'intégration de structure 3D de protéine et de données de dynamique moléculaire*
 
 **Cas d'étude :** *Comparaison de l'hémoglobine normale (WT) et de l'hémoglobine S (HbS)*
 
-Université de Kinshasa - Faculté des Sciences et Technologies - Département de Mathématiques, Statistique et Informatique - Master 2.
-
-**Titulaire :** Professeur Christian D. BOPE  
-**Doctorant :** Keph Makoy
-
 **Dépôt GitHub :** <https://github.com/JudicaelMAKWIZA/HBB_MD_Interpretation>
 
-**Membres du groupe :**
-- Makwiza Mbala Judicael
-- Matendo Kalaki Donat
-- Mwanza Parousia Ketsia
-- Mfushi Kapalay Stephen
-- Luayi Kangombo Jonas
-
 ---
-
-## Livrables de présentation
-
-- Diaporama PDF final : [`docs/HBB_MD_Diapo_Final_Revu_v2.pdf`](docs/HBB_MD_Diapo_Final_Revu_v2.pdf)
-- Dossier LaTeX / Overleaf modifiable : [`docs/overleaf_hbb_md/`](docs/overleaf_hbb_md/)
-- Figures principales : [`figures/`](figures/) et [`presentation_assets/chimerax/outputs/`](presentation_assets/chimerax/outputs/)
-
-Le diaporama reste volontairement synthétique. Les détails reproductibles, commandes, scripts, fichiers MDP, figures et limites méthodologiques sont centralisés dans ce README et dans les dossiers du dépôt.
-
 
 ## 1. Contexte biologique
 
@@ -262,7 +241,7 @@ Cette conclusion doit rester prudente : la simulation ne contient pas une fibre 
 ```text
 HBB_MD_Interpretation/
 ├── data/                         # PDB bruts et structures préparées
-├── docs/                         # Présentation Beamer/PDF et notes de publication
+├── docs/                         # Fichier PDF de Présentation
 ├── figures/                      # Graphiques RMSD/RMSF/Rg
 ├── mdp/                          # Paramètres GROMACS
 ├── presentation_assets/         # Visualisations ChimeraX et assets Beamer
@@ -291,20 +270,9 @@ La dynamique moléculaire complète prend plusieurs heures sur CPU. Les fichiers
 
 ---
 
-## 13. Présentation
+## 13. Références
 
-Le diaporama final respecte le format du Travail Pratique : introduction, problématique/hypothèse/objectifs, méthode en diagramme de flux, résultats, conclusion, remerciements et bibliographie.
-
-- Source Beamer : `docs/beamer/HBB_MD_Diapo.tex`
-- PDF : `docs/beamer/HBB_MD_Diapo.pdf`
-
-Le diaporama reste volontairement synthétique. **Le présent README constitue la documentation détaillée du projet** et permet au lecteur de retrouver les paramètres, contrôles, résultats, limites, figures et commandes de reproduction sans surcharger les 10 diapositives.
-
----
-
-## 14. Références
-
-1. **BOPE, Christian D.** *Programmation et algorithmes pour la bioinformatique - Notes de cours détaillées*. Université de Kinshasa, Faculté des Sciences et Technologies, Département de Mathématiques, Statistique et Informatique, année académique 2025-2026. Doctorant : Keph Makoy.
+1. **BOPE, Christian D.** *Programmation et algorithmes pour la bioinformatique - Notes de cours*. Université de Kinshasa, Faculté des Sciences et Technologies, Département de Mathématiques, Statistique et Informatique, année académique 2025-2026. Doctorant : Keph Makoy.
 2. **NCBI ClinVar.** `NM_000518.5(HBB):c.20A>T (p.Glu7Val)`, HbS, rs334.
 3. **RCSB Protein Data Bank.** PDB **2DN2**, human deoxyhemoglobin, 1.25 Å.
 4. **RCSB Protein Data Bank.** PDB **2HBS**, deoxyhemoglobin S, 2.05 Å.
@@ -313,12 +281,3 @@ Le diaporama reste volontairement synthétique. **Le présent README constitue l
 7. **GROMACS 2023.3 Documentation.** https://manual.gromacs.org/2023.3/
 8. Pettersen, E. F. et al. *UCSF ChimeraX: Structure visualization for researchers, educators, and developers*. **Protein Science**, 30, 70-82, 2021.
 9. **UCSF ChimeraX Documentation.** https://www.cgl.ucsf.edu/chimerax/docs/user/
-10. **Université de Kinshasa.** https://www.unikin.ac.cd/
-
----
-
-## 15. Dépôt GitHub
-
-**https://github.com/JudicaelMAKWIZA/HBB_MD_Interpretation**
-
-Le dépôt contient les scripts, paramètres, structures préparées, résultats numériques utiles, figures, visualisations ChimeraX et le diaporama nécessaires à la compréhension et à la reproductibilité du Travail Pratique.
